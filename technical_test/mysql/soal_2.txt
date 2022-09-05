@@ -1,0 +1,4 @@
+SELECT *
+FROM pelanggan
+WHERE jenis_kelamin = 'perempuan'
+AND umur > 30

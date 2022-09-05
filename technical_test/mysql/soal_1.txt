@@ -1,0 +1,3 @@
+SELECT c.id_customer,c.no_telpon AS no_telpon_customer, c.produk, s.nama_sales
+FROM customer AS c 
+INNER JOIN sales AS s ON c.id_sales = s.id_sales
